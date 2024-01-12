@@ -77,6 +77,9 @@ h1{
     max-width: 600px;
     text-align: center;
 }
+.accordion-item:hover{
+    opacity: 0.5;
+}
 /*Expreriencia*/
 .experiencia{
     padding: 40px 40px 60px 40px;
