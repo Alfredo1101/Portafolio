@@ -432,5 +432,20 @@ footer{
         overflow-y: auto;
     }
 }
+@media (max-width: 576px) {
+    .badge-container {
+        text-align: center; /* Centra el badge en pantallas más pequeñas */
+    }
+    
+    .badge.text-bg-primary {
+        display: inline-block; /* Muestra el badge en línea */
+        white-space: normal; /* Permite el retorno de línea si es necesario */
+    }
+}
+@media (max-width: 767px) {
+    .sobre-mi {
+        overflow-y: auto; /* Agrega una barra de desplazamiento si es necesario */
+    }
+}
 
 
