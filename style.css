@@ -2,18 +2,24 @@
 .navbar {
     padding: 2rem;
     background: #f5f6f7;
-    
+
 }
+
 .navbar-nav .nav-link {
-    color: black; /* Color del texto normal */
-    font-size: 18px; /* Tamaño de la fuente normal */
-    transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out; /* Efectos de transición */
+    color: black;
+    /* Color del texto normal */
+    font-size: 18px;
+    /* Tamaño de la fuente normal */
+    transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out;
+    /* Efectos de transición */
 }
 
 /* Estilos para el hover en los elementos de navegación */
 .navbar-nav .nav-link:hover {
-    color: #1b1b32; /* Nuevo color al hacer hover */
-    font-size: 20px; /* Nuevo tamaño de la fuente al hacer hover */
+    color: #1b1b32;
+    /* Nuevo color al hacer hover */
+    font-size: 20px;
+    /* Nuevo tamaño de la fuente al hacer hover */
 }
 
 
@@ -50,7 +56,7 @@ h1 {
     font-size: 2rem;
     padding: 15px 0;
     font-family: 'Rubik Dirt', cursive;
-    
+
 
 }
 
@@ -109,19 +115,22 @@ h1 {
 
 .sobre-mi .contenedor {
     max-width: 600px;
-    margin: 0 auto; 
+    margin: 0 auto;
     text-align: center;
 }
+
 /* Ajustes generales para el acordeón */
 .accordion {
     margin-bottom: 20px;
     height: 100px;
     width: 200px;
 }
+
 .accordion-button {
     padding: 10px;
     font-size: 16px;
 }
+
 .accordion-body {
     padding: 10px;
     font-size: 14px;
@@ -273,7 +282,8 @@ h1 {
     text-align: center;
     font-family: 'Share Tech Mono', monospace;
 }
-.seccion-titulo{
+
+.seccion-titulo {
     text-align: center;
 }
 
@@ -345,23 +355,27 @@ h1 {
 .contacto button:hover i {
     color: black;
 }
+
 /* Piede pagina (footer)*/
-footer{
+footer {
     min-height: 300px;
 }
-.footer-logo{
+
+.footer-logo {
     height: 120px;
     width: 120px;
     margin: 10px;
-    filter: invert(1); 
+    filter: invert(1);
 
 }
-.footer-texto{
+
+.footer-texto {
     font-size: 1.5rem;
     padding: 20px;
     margin-bottom: 30px;
     font-family: Quicksand, sans-serif;
 }
+
 .iconos-redes-sociales a {
     width: 50px;
     height: 50px;
@@ -374,30 +388,36 @@ footer{
     border-radius: 50%;
     transition: all 0.2s ease-in;
 }
+
 .iconos-redes-sociales i {
     color: white;
     font-size: 1.5rem;
     transform: all 0.2s ease-in;
 }
-.iconos-redes-sociales a:hover{
+
+.iconos-redes-sociales a:hover {
     background-color: white;
     border: 2px solid rgb(13, 110, 253);
 }
-.iconos-redes-sociales a:hover i{
+
+.iconos-redes-sociales a:hover i {
     color: black;
 }
-.derecho-de-autor{
+
+.derecho-de-autor {
     font-size: 15px;
     color: #aeaeae;
     padding: 20px;
 }
+
 /* Adaptable responsible */
 @media screen and (max-width: 767px) {
     .navbar-brand {
         display: none;
     }
 }
-@media screen and (max-width: 800px){
+
+@media screen and (max-width: 800px) {
     .testimonio-imagen {
         height: 100px;
         width: 80px;
@@ -406,6 +426,7 @@ footer{
     .testimonio-texto {
         font-size: 18px;
     }
+
     .testimonios {
         padding: 30px;
     }
@@ -426,26 +447,31 @@ footer{
         font-size: 40px;
     }
 }
+
 @media (min-width: 768px) {
     body {
         max-height: 100vh;
         overflow-y: auto;
     }
 }
+
 @media (max-width: 576px) {
     .badge-container {
-        text-align: center; /* Centra el badge en pantallas más pequeñas */
+        text-align: center;
+        /* Centra el badge en pantallas más pequeñas */
     }
-    
+
     .badge.text-bg-primary {
-        display: inline-block; /* Muestra el badge en línea */
-        white-space: normal; /* Permite el retorno de línea si es necesario */
+        display: inline-block;
+        /* Muestra el badge en línea */
+        white-space: normal;
+        /* Permite el retorno de línea si es necesario */
     }
 }
+
 @media (max-width: 767px) {
     .sobre-mi {
-        overflow-y: auto; /* Agrega una barra de desplazamiento si es necesario */
+        overflow-y: auto;
+        /* Agrega una barra de desplazamiento si es necesario */
     }
 }
-
-
